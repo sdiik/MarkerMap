@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB965CBF1A75E3E78A3332E2 /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD72B8E060D7305E169CDF9A /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework */; };
+		BF8D2073FBC40BB5F6EBD3FE /* Pods_MarkerMapStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849360C228AB84711B90BF91 /* Pods_MarkerMapStoryboard.framework */; };
+		CE9BC4968759F7387DEFC305 /* Pods_MarkerMapStoryboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4622AF3118852E2A767F4148 /* Pods_MarkerMapStoryboardTests.framework */; };
+		F34EC6FA26197D00002AE7B6 /* MapScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EC6F926197D00002AE7B6 /* MapScreenController.swift */; };
+		F368EC2526182515005A552D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC2426182515005A552D /* AppDelegate.swift */; };
+		F368EC2726182515005A552D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC2626182515005A552D /* SceneDelegate.swift */; };
+		F368EC2C26182515005A552D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368EC2A26182515005A552D /* Main.storyboard */; };
+		F368EC2E26182517005A552D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F368EC2D26182517005A552D /* Assets.xcassets */; };
+		F368EC3126182517005A552D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F368EC2F26182517005A552D /* LaunchScreen.storyboard */; };
+		F368EC3C26182517005A552D /* MarkerMapStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC3B26182517005A552D /* MarkerMapStoryboardTests.swift */; };
+		F368EC4726182517005A552D /* MarkerMapStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC4626182517005A552D /* MarkerMapStoryboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F368EC3826182517005A552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F368EC1926182515005A552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F368EC2026182515005A552D;
+			remoteInfo = MarkerMapStoryboard;
+		};
+		F368EC4326182517005A552D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F368EC1926182515005A552D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F368EC2026182515005A552D;
+			remoteInfo = MarkerMapStoryboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F94AEE188E87EA104A99652 /* Pods-MarkerMapStoryboardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboardTests.release.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboardTests/Pods-MarkerMapStoryboardTests.release.xcconfig"; sourceTree = "<group>"; };
+		4622AF3118852E2A767F4148 /* Pods_MarkerMapStoryboardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkerMapStoryboardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		849360C228AB84711B90BF91 /* Pods_MarkerMapStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkerMapStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCD1D4ED94362A65054BA41 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.release.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEA5DB980B19B8C432A93D8E /* Pods-MarkerMapStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard.release.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard/Pods-MarkerMapStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+		BD72B8E060D7305E169CDF9A /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF12B348DDE76428DAFC7106 /* Pods-MarkerMapStoryboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboardTests.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboardTests/Pods-MarkerMapStoryboardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC78A23CBBD81607DE16906A /* Pods-MarkerMapStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard/Pods-MarkerMapStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		EA94E535BC89C72625E38B56 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34EC6F926197D00002AE7B6 /* MapScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenController.swift; sourceTree = "<group>"; };
+		F368EC2126182515005A552D /* MarkerMapStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkerMapStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F368EC2426182515005A552D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F368EC2626182515005A552D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F368EC2B26182515005A552D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F368EC2D26182517005A552D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F368EC3026182517005A552D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F368EC3226182517005A552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368EC3726182517005A552D /* MarkerMapStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkerMapStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F368EC3B26182517005A552D /* MarkerMapStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerMapStoryboardTests.swift; sourceTree = "<group>"; };
+		F368EC3D26182517005A552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F368EC4226182517005A552D /* MarkerMapStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkerMapStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F368EC4626182517005A552D /* MarkerMapStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerMapStoryboardUITests.swift; sourceTree = "<group>"; };
+		F368EC4826182517005A552D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F368EC1E26182515005A552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8D2073FBC40BB5F6EBD3FE /* Pods_MarkerMapStoryboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC3426182517005A552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BC4968759F7387DEFC305 /* Pods_MarkerMapStoryboardTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC3F26182517005A552D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB965CBF1A75E3E78A3332E2 /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81DD3263ED1E6D6E46E5A3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				849360C228AB84711B90BF91 /* Pods_MarkerMapStoryboard.framework */,
+				BD72B8E060D7305E169CDF9A /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework */,
+				4622AF3118852E2A767F4148 /* Pods_MarkerMapStoryboardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF942B63F69564BCCCF8A634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC78A23CBBD81607DE16906A /* Pods-MarkerMapStoryboard.debug.xcconfig */,
+				AEA5DB980B19B8C432A93D8E /* Pods-MarkerMapStoryboard.release.xcconfig */,
+				EA94E535BC89C72625E38B56 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig */,
+				ACCD1D4ED94362A65054BA41 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.release.xcconfig */,
+				BF12B348DDE76428DAFC7106 /* Pods-MarkerMapStoryboardTests.debug.xcconfig */,
+				3F94AEE188E87EA104A99652 /* Pods-MarkerMapStoryboardTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F34EC6F826197CA8002AE7B6 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				F34EC6F926197D00002AE7B6 /* MapScreenController.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		F368EC1826182515005A552D = {
+			isa = PBXGroup;
+			children = (
+				F368EC2326182515005A552D /* MarkerMapStoryboard */,
+				F368EC3A26182517005A552D /* MarkerMapStoryboardTests */,
+				F368EC4526182517005A552D /* MarkerMapStoryboardUITests */,
+				F368EC2226182515005A552D /* Products */,
+				CF942B63F69564BCCCF8A634 /* Pods */,
+				81DD3263ED1E6D6E46E5A3D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F368EC2226182515005A552D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F368EC2126182515005A552D /* MarkerMapStoryboard.app */,
+				F368EC3726182517005A552D /* MarkerMapStoryboardTests.xctest */,
+				F368EC4226182517005A552D /* MarkerMapStoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F368EC2326182515005A552D /* MarkerMapStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				F34EC6F826197CA8002AE7B6 /* MapView */,
+				F368EC2426182515005A552D /* AppDelegate.swift */,
+				F368EC2626182515005A552D /* SceneDelegate.swift */,
+				F368EC2A26182515005A552D /* Main.storyboard */,
+				F368EC2D26182517005A552D /* Assets.xcassets */,
+				F368EC2F26182517005A552D /* LaunchScreen.storyboard */,
+				F368EC3226182517005A552D /* Info.plist */,
+			);
+			path = MarkerMapStoryboard;
+			sourceTree = "<group>";
+		};
+		F368EC3A26182517005A552D /* MarkerMapStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F368EC3B26182517005A552D /* MarkerMapStoryboardTests.swift */,
+				F368EC3D26182517005A552D /* Info.plist */,
+			);
+			path = MarkerMapStoryboardTests;
+			sourceTree = "<group>";
+		};
+		F368EC4526182517005A552D /* MarkerMapStoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F368EC4626182517005A552D /* MarkerMapStoryboardUITests.swift */,
+				F368EC4826182517005A552D /* Info.plist */,
+			);
+			path = MarkerMapStoryboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F368EC2026182515005A552D /* MarkerMapStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F368EC4B26182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboard" */;
+			buildPhases = (
+				D590A9B9C9AAF8A2F9B52218 /* [CP] Check Pods Manifest.lock */,
+				F368EC1D26182515005A552D /* Sources */,
+				F368EC1E26182515005A552D /* Frameworks */,
+				F368EC1F26182515005A552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkerMapStoryboard;
+			productName = MarkerMapStoryboard;
+			productReference = F368EC2126182515005A552D /* MarkerMapStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F368EC3626182517005A552D /* MarkerMapStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F368EC4E26182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboardTests" */;
+			buildPhases = (
+				8348BB31C1BC9C9CC6B79981 /* [CP] Check Pods Manifest.lock */,
+				F368EC3326182517005A552D /* Sources */,
+				F368EC3426182517005A552D /* Frameworks */,
+				F368EC3526182517005A552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F368EC3926182517005A552D /* PBXTargetDependency */,
+			);
+			name = MarkerMapStoryboardTests;
+			productName = MarkerMapStoryboardTests;
+			productReference = F368EC3726182517005A552D /* MarkerMapStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F368EC4126182517005A552D /* MarkerMapStoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F368EC5126182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboardUITests" */;
+			buildPhases = (
+				85930855E9F11FDE4E6D2746 /* [CP] Check Pods Manifest.lock */,
+				F368EC3E26182517005A552D /* Sources */,
+				F368EC3F26182517005A552D /* Frameworks */,
+				F368EC4026182517005A552D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F368EC4426182517005A552D /* PBXTargetDependency */,
+			);
+			name = MarkerMapStoryboardUITests;
+			productName = MarkerMapStoryboardUITests;
+			productReference = F368EC4226182517005A552D /* MarkerMapStoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F368EC1926182515005A552D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F368EC2026182515005A552D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F368EC3626182517005A552D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F368EC2026182515005A552D;
+					};
+					F368EC4126182517005A552D = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F368EC2026182515005A552D;
+					};
+				};
+			};
+			buildConfigurationList = F368EC1C26182515005A552D /* Build configuration list for PBXProject "MarkerMapStoryboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F368EC1826182515005A552D;
+			productRefGroup = F368EC2226182515005A552D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F368EC2026182515005A552D /* MarkerMapStoryboard */,
+				F368EC3626182517005A552D /* MarkerMapStoryboardTests */,
+				F368EC4126182517005A552D /* MarkerMapStoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F368EC1F26182515005A552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368EC3126182517005A552D /* LaunchScreen.storyboard in Resources */,
+				F368EC2E26182517005A552D /* Assets.xcassets in Resources */,
+				F368EC2C26182515005A552D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC3526182517005A552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC4026182517005A552D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8348BB31C1BC9C9CC6B79981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkerMapStoryboardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85930855E9F11FDE4E6D2746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D590A9B9C9AAF8A2F9B52218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkerMapStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F368EC1D26182515005A552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368EC2526182515005A552D /* AppDelegate.swift in Sources */,
+				F34EC6FA26197D00002AE7B6 /* MapScreenController.swift in Sources */,
+				F368EC2726182515005A552D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC3326182517005A552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368EC3C26182517005A552D /* MarkerMapStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F368EC3E26182517005A552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F368EC4726182517005A552D /* MarkerMapStoryboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F368EC3926182517005A552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F368EC2026182515005A552D /* MarkerMapStoryboard */;
+			targetProxy = F368EC3826182517005A552D /* PBXContainerItemProxy */;
+		};
+		F368EC4426182517005A552D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F368EC2026182515005A552D /* MarkerMapStoryboard */;
+			targetProxy = F368EC4326182517005A552D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F368EC2A26182515005A552D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F368EC2B26182515005A552D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F368EC2F26182517005A552D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F368EC3026182517005A552D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F368EC4926182517005A552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F368EC4A26182517005A552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F368EC4C26182517005A552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC78A23CBBD81607DE16906A /* Pods-MarkerMapStoryboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiddiq.MarkerMapStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F368EC4D26182517005A552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA5DB980B19B8C432A93D8E /* Pods-MarkerMapStoryboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shiddiq.MarkerMapStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F368EC4F26182517005A552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF12B348DDE76428DAFC7106 /* Pods-MarkerMapStoryboardTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.MarkerMapStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkerMapStoryboard.app/MarkerMapStoryboard";
+			};
+			name = Debug;
+		};
+		F368EC5026182517005A552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F94AEE188E87EA104A99652 /* Pods-MarkerMapStoryboardTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.MarkerMapStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkerMapStoryboard.app/MarkerMapStoryboard";
+			};
+			name = Release;
+		};
+		F368EC5226182517005A552D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA94E535BC89C72625E38B56 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.MarkerMapStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkerMapStoryboard;
+			};
+			name = Debug;
+		};
+		F368EC5326182517005A552D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCD1D4ED94362A65054BA41 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZX9XPCSA65;
+				INFOPLIST_FILE = MarkerMapStoryboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UnitTestExample.MarkerMapStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkerMapStoryboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F368EC1C26182515005A552D /* Build configuration list for PBXProject "MarkerMapStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368EC4926182517005A552D /* Debug */,
+				F368EC4A26182517005A552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F368EC4B26182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368EC4C26182517005A552D /* Debug */,
+				F368EC4D26182517005A552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F368EC4E26182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368EC4F26182517005A552D /* Debug */,
+				F368EC5026182517005A552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F368EC5126182517005A552D /* Build configuration list for PBXNativeTarget "MarkerMapStoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F368EC5226182517005A552D /* Debug */,
+				F368EC5326182517005A552D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F368EC1926182515005A552D /* Project object */;
+}

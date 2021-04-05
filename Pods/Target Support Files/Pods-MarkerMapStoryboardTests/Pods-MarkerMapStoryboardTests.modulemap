@@ -1,0 +1,6 @@
+framework module Pods_MarkerMapStoryboardTests {
+  umbrella header "Pods-MarkerMapStoryboardTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
