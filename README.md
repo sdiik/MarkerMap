@@ -11,7 +11,7 @@ MarkerMap
 import MapKit
 import CoreLocation
 
-mpde; Architecture is MVC
+model Architecture is MVC
 
 * in SwiftUI
 import SwiftUI
