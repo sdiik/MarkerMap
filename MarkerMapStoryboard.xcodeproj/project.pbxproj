@@ -10,6 +10,10 @@
 		BB965CBF1A75E3E78A3332E2 /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD72B8E060D7305E169CDF9A /* Pods_MarkerMapStoryboard_MarkerMapStoryboardUITests.framework */; };
 		BF8D2073FBC40BB5F6EBD3FE /* Pods_MarkerMapStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849360C228AB84711B90BF91 /* Pods_MarkerMapStoryboard.framework */; };
 		CE9BC4968759F7387DEFC305 /* Pods_MarkerMapStoryboardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4622AF3118852E2A767F4148 /* Pods_MarkerMapStoryboardTests.framework */; };
+		F3108F4A261F2CF30092C2DF /* MapScreenStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3108F49261F2CF30092C2DF /* MapScreenStruct.swift */; };
+		F3108FB5261F33260092C2DF /* MapScreenAdvanceStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3108FB4261F33260092C2DF /* MapScreenAdvanceStruct.swift */; };
+		F3108FBB261F5F500092C2DF /* CheckPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3108FBA261F5F500092C2DF /* CheckPoint.swift */; };
+		F3108FD2261F64230092C2DF /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3108FD1261F64230092C2DF /* MapViewCoordinator.swift */; };
 		F34EC6FA26197D00002AE7B6 /* MapScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34EC6F926197D00002AE7B6 /* MapScreenController.swift */; };
 		F368EC2526182515005A552D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC2426182515005A552D /* AppDelegate.swift */; };
 		F368EC2726182515005A552D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F368EC2626182515005A552D /* SceneDelegate.swift */; };
@@ -47,6 +51,10 @@
 		BF12B348DDE76428DAFC7106 /* Pods-MarkerMapStoryboardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboardTests.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboardTests/Pods-MarkerMapStoryboardTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC78A23CBBD81607DE16906A /* Pods-MarkerMapStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard/Pods-MarkerMapStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
 		EA94E535BC89C72625E38B56 /* Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests/Pods-MarkerMapStoryboard-MarkerMapStoryboardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3108F49261F2CF30092C2DF /* MapScreenStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenStruct.swift; sourceTree = "<group>"; };
+		F3108FB4261F33260092C2DF /* MapScreenAdvanceStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenAdvanceStruct.swift; sourceTree = "<group>"; };
+		F3108FBA261F5F500092C2DF /* CheckPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPoint.swift; sourceTree = "<group>"; };
+		F3108FD1261F64230092C2DF /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
 		F34EC6F926197D00002AE7B6 /* MapScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenController.swift; sourceTree = "<group>"; };
 		F368EC2126182515005A552D /* MarkerMapStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkerMapStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F368EC2426182515005A552D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,16 +119,42 @@
 				BF12B348DDE76428DAFC7106 /* Pods-MarkerMapStoryboardTests.debug.xcconfig */,
 				3F94AEE188E87EA104A99652 /* Pods-MarkerMapStoryboardTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		F34EC6F826197CA8002AE7B6 /* MapView */ = {
+		F3108F48261F2CB40092C2DF /* MapViewSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				F3108FC2261F60E20092C2DF /* Coordinator */,
+				F3108FB9261F5F310092C2DF /* Model */,
+				F3108F49261F2CF30092C2DF /* MapScreenStruct.swift */,
+				F3108FB4261F33260092C2DF /* MapScreenAdvanceStruct.swift */,
+			);
+			path = MapViewSwiftUI;
+			sourceTree = "<group>";
+		};
+		F3108FB9261F5F310092C2DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3108FBA261F5F500092C2DF /* CheckPoint.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3108FC2261F60E20092C2DF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F3108FD1261F64230092C2DF /* MapViewCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F34EC6F826197CA8002AE7B6 /* MapViewStoryboard */ = {
 			isa = PBXGroup;
 			children = (
 				F34EC6F926197D00002AE7B6 /* MapScreenController.swift */,
 			);
-			path = MapView;
+			path = MapViewStoryboard;
 			sourceTree = "<group>";
 		};
 		F368EC1826182515005A552D = {
@@ -148,7 +182,8 @@
 		F368EC2326182515005A552D /* MarkerMapStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				F34EC6F826197CA8002AE7B6 /* MapView */,
+				F3108F48261F2CB40092C2DF /* MapViewSwiftUI */,
+				F34EC6F826197CA8002AE7B6 /* MapViewStoryboard */,
 				F368EC2426182515005A552D /* AppDelegate.swift */,
 				F368EC2626182515005A552D /* SceneDelegate.swift */,
 				F368EC2A26182515005A552D /* Main.storyboard */,
@@ -381,7 +416,11 @@
 			files = (
 				F368EC2526182515005A552D /* AppDelegate.swift in Sources */,
 				F34EC6FA26197D00002AE7B6 /* MapScreenController.swift in Sources */,
+				F3108FD2261F64230092C2DF /* MapViewCoordinator.swift in Sources */,
+				F3108FB5261F33260092C2DF /* MapScreenAdvanceStruct.swift in Sources */,
 				F368EC2726182515005A552D /* SceneDelegate.swift in Sources */,
+				F3108F4A261F2CF30092C2DF /* MapScreenStruct.swift in Sources */,
+				F3108FBB261F5F500092C2DF /* CheckPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
